@@ -6,14 +6,14 @@ import FinalizarPedido from "./pages/FinalizarPedido";
 
 function App() {
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter>
             <Routes>
                 <Route path="/cart" element={<Carrinho/>} />
                 <Route path="/deliverylanches" element={<DeliveryLanches/>} />
                 <Route path="/finalizarpedido" element={<FinalizarPedido/>} />
                 <Route path="/" element={<Teste/>} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
