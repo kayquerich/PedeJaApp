@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pede-ja-app/static/css/main.8171c949.css",
-    "main.js": "/pede-ja-app/static/js/main.298cdd23.js",
+    "main.js": "/pede-ja-app/static/js/main.7fe0c681.js",
     "static/js/453.3e438ee1.chunk.js": "/pede-ja-app/static/js/453.3e438ee1.chunk.js",
     "static/media/hamburger.jpg": "/pede-ja-app/static/media/hamburger.288b105575b546d326cf.jpg",
     "static/media/banner.png": "/pede-ja-app/static/media/banner.4c1381e0821236b42a89.png",
@@ -12,11 +12,11 @@
     "static/media/pizza.jpeg": "/pede-ja-app/static/media/pizza.d2aff2f280bd95c3b00d.jpeg",
     "index.html": "/pede-ja-app/index.html",
     "main.8171c949.css.map": "/pede-ja-app/static/css/main.8171c949.css.map",
-    "main.298cdd23.js.map": "/pede-ja-app/static/js/main.298cdd23.js.map",
+    "main.7fe0c681.js.map": "/pede-ja-app/static/js/main.7fe0c681.js.map",
     "453.3e438ee1.chunk.js.map": "/pede-ja-app/static/js/453.3e438ee1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8171c949.css",
-    "static/js/main.298cdd23.js"
+    "static/js/main.7fe0c681.js"
   ]
 }
