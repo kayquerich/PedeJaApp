@@ -1,5 +1,6 @@
 {
   "name": "pede-ja-app",
+  "homepage": "https://kayquerich.github.io/pede-ja-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +15,6 @@
     "venom-bot": "^5.3.0",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://kayquerich.github.io/PedeJaApp",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
