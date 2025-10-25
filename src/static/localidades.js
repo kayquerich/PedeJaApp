@@ -1,0 +1,18 @@
+export const localidades = [
+    { nome: "Loteamento Adelina Barreto", info: 2.00 },
+    { nome: "Alto da Bela Vista", info: 2.00 },
+    { nome: "Centro", info: 2.00 },
+    { nome: "Cohab", info: 2.00 },
+    { nome: "Vila Real", info: 2.00 },
+    { nome: "Alto do Cruzeirão", info: 2.00 },
+    { nome: "Alto da Compesa", info: 2.00 },
+    { nome: "Baixa da Compesa", info: 2.00 },
+    { nome: "Alto do Cabrobozinho", info: 2.00 },
+    { nome: "Barra", info: 2.00 },
+    { nome: "Espinho", info: 2.00 },
+    { nome: "Passagem de Pedra", info: 2.00 },
+    { nome: "Destino", info: 2.00 },
+    { nome: "Sussuarana", info: 2.00 }, 
+    { nome: "São Joaquim", info: 2.00 },
+    { nome: "Fazenda Alazão", info: 2.00 },
+]

@@ -1,0 +1,123 @@
+.container {
+  min-height: 100vh;
+  background-color: #fffaf5;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Banner */
+.banner {
+  color: white;
+  text-align: center;
+}
+
+.bannerContent h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.bannerContent p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 1.5rem;
+}
+
+.bannerContent button {
+  background: white;
+  color: #ff7a00;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.bannerContent button:hover {
+  background: #ffe2c1;
+}
+
+.banner_image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+/* Grid de produtos */
+.grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  max-width: 1200px;
+  padding-inline: 2rem;
+}
+
+/* Cards */
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.image {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.content {
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.content h2 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.4rem;
+}
+
+.content p {
+  color: #777;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.footer span {
+  font-weight: 600;
+  color: #ff7a00;
+  font-size: 1.05rem;
+}
+
+.footer button {
+  background-color: #ff7a00;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.footer button:hover {
+  background-color: #e76a00;
+}
