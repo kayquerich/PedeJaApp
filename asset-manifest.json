@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/PedeJaApp/static/css/main.8171c949.css",
-    "main.js": "/PedeJaApp/static/js/main.c45277da.js",
-    "static/js/453.3e438ee1.chunk.js": "/PedeJaApp/static/js/453.3e438ee1.chunk.js",
-    "static/media/hamburger.jpg": "/PedeJaApp/static/media/hamburger.288b105575b546d326cf.jpg",
-    "static/media/banner.png": "/PedeJaApp/static/media/banner.4c1381e0821236b42a89.png",
-    "static/media/pasteis.jpg": "/PedeJaApp/static/media/pasteis.88b3a377000cecfe603e.jpg",
-    "static/media/tapioca.jpg": "/PedeJaApp/static/media/tapioca.adaac0d71ef852cca1e4.jpg",
-    "static/media/bebida.jpg": "/PedeJaApp/static/media/bebida.e2c2a96db3950e1b38ae.jpg",
-    "static/media/cuscuz.jpg": "/PedeJaApp/static/media/cuscuz.7ae244160d53d3e6ed88.jpg",
-    "static/media/pizza.jpeg": "/PedeJaApp/static/media/pizza.d2aff2f280bd95c3b00d.jpeg",
-    "index.html": "/PedeJaApp/index.html",
-    "main.8171c949.css.map": "/PedeJaApp/static/css/main.8171c949.css.map",
-    "main.c45277da.js.map": "/PedeJaApp/static/js/main.c45277da.js.map",
-    "453.3e438ee1.chunk.js.map": "/PedeJaApp/static/js/453.3e438ee1.chunk.js.map"
+    "main.css": "/pederapidoapp/static/css/main.8171c949.css",
+    "main.js": "/pederapidoapp/static/js/main.04b8dd42.js",
+    "static/js/453.3e438ee1.chunk.js": "/pederapidoapp/static/js/453.3e438ee1.chunk.js",
+    "static/media/hamburger.jpg": "/pederapidoapp/static/media/hamburger.288b105575b546d326cf.jpg",
+    "static/media/banner.png": "/pederapidoapp/static/media/banner.4c1381e0821236b42a89.png",
+    "static/media/pasteis.jpg": "/pederapidoapp/static/media/pasteis.88b3a377000cecfe603e.jpg",
+    "static/media/tapioca.jpg": "/pederapidoapp/static/media/tapioca.adaac0d71ef852cca1e4.jpg",
+    "static/media/bebida.jpg": "/pederapidoapp/static/media/bebida.e2c2a96db3950e1b38ae.jpg",
+    "static/media/cuscuz.jpg": "/pederapidoapp/static/media/cuscuz.7ae244160d53d3e6ed88.jpg",
+    "static/media/pizza.jpeg": "/pederapidoapp/static/media/pizza.d2aff2f280bd95c3b00d.jpeg",
+    "index.html": "/pederapidoapp/index.html",
+    "main.8171c949.css.map": "/pederapidoapp/static/css/main.8171c949.css.map",
+    "main.04b8dd42.js.map": "/pederapidoapp/static/js/main.04b8dd42.js.map",
+    "453.3e438ee1.chunk.js.map": "/pederapidoapp/static/js/453.3e438ee1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8171c949.css",
-    "static/js/main.c45277da.js"
+    "static/js/main.04b8dd42.js"
   ]
 }
