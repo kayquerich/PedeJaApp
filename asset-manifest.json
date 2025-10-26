@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pederapidoapp/static/css/main.89a9e0fe.css",
-    "main.js": "/pederapidoapp/static/js/main.c37acd93.js",
+    "main.css": "/pederapidoapp/static/css/main.3be10e65.css",
+    "main.js": "/pederapidoapp/static/js/main.db12c640.js",
     "static/js/453.3e438ee1.chunk.js": "/pederapidoapp/static/js/453.3e438ee1.chunk.js",
     "static/media/hamburger.jpg": "/pederapidoapp/static/media/hamburger.288b105575b546d326cf.jpg",
     "static/media/banner.png": "/pederapidoapp/static/media/banner.4c1381e0821236b42a89.png",
@@ -11,12 +11,12 @@
     "static/media/cuscuz.jpg": "/pederapidoapp/static/media/cuscuz.7ae244160d53d3e6ed88.jpg",
     "static/media/pizza.jpeg": "/pederapidoapp/static/media/pizza.d2aff2f280bd95c3b00d.jpeg",
     "index.html": "/pederapidoapp/index.html",
-    "main.89a9e0fe.css.map": "/pederapidoapp/static/css/main.89a9e0fe.css.map",
-    "main.c37acd93.js.map": "/pederapidoapp/static/js/main.c37acd93.js.map",
+    "main.3be10e65.css.map": "/pederapidoapp/static/css/main.3be10e65.css.map",
+    "main.db12c640.js.map": "/pederapidoapp/static/js/main.db12c640.js.map",
     "453.3e438ee1.chunk.js.map": "/pederapidoapp/static/js/453.3e438ee1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89a9e0fe.css",
-    "static/js/main.c37acd93.js"
+    "static/css/main.3be10e65.css",
+    "static/js/main.db12c640.js"
   ]
 }
