@@ -57,7 +57,7 @@ export default function Cardapio() {
                         <div className={styles.card_content}>
                             <h3>{item.nome}</h3>
                             <p>{item.descricao.length > 55 ? item.descricao.slice(0,55) + '...' : item.descricao}</p>
-                            <p className={styles.preco}>R$ {item.preco.toFixed(2)}</p>
+                            <p className={styles.preco}>R$ {`${item.preco.toFixed(2)}`.replace('.', ',')}</p>
                         </div>
                     </div>
                 ))}
