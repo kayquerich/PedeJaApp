@@ -3,6 +3,7 @@
     background-color: #fffaf5;
     font-family: "Poppins", sans-serif;
     padding: 2rem;
+    position: relative;
 }
 
 .header {
@@ -182,3 +183,4 @@
 .finalizar:hover {
     background: #e76a00;
 }
+

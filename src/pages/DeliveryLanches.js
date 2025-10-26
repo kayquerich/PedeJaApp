@@ -4,6 +4,7 @@ import CartButton from "../components/CartButton";
 import image_banner from '../static/images/banner.png'
 import CategorySelector from '../components/SeletorCategorias';
 import { produtos } from '../static/produtos';
+import { useNavigate } from 'react-router-dom';
 
 export default function Cardapio() {
 
@@ -13,31 +14,14 @@ export default function Cardapio() {
         (p) => p.categoria === categoriaAtiva
     );
 
-    const adicionar_produto = (produto) => {
-        console.log(`Produto adicionado: ${produto.nome}`);
+    const navigation = useNavigate();
+    const navegar_produto = (produto) => {
+        console.log(`Navegando para o produto: ${produto.nome}`);
+        // Aqui você pode implementar a navegação para a página de detalhes do produto
+    
+        navigation(`/produto`, { state: { produto } });    
 
-        const saved_cart = JSON.parse(sessionStorage.getItem('cart')) || [];
-
-        for (let item of saved_cart) {
-            if (item.id === produto.id) {
-                console.log('Produto já está no carrinho:', item);
-                return; // Sai da função sem adicionar o produto novamente
-            }
-        }
-
-        saved_cart.push(produto);
-
-        saved_cart.forEach(item => {
-            if (!item.quantidade) {
-                item.quantidade = 1;
-            }
-        });
-
-        sessionStorage.setItem('cart', JSON.stringify(saved_cart));
-
-        console.log('Carrinho atualizado:', saved_cart);
-
-    };
+    }
 
     return (
         <div className={styles.container}>
@@ -52,7 +36,7 @@ export default function Cardapio() {
 
             <div className={styles.grid}>
                 {produtosFiltrados.map((item) => (
-                    <div key={item.id} className={styles.card_horizontal}>
+                    <div key={item.id} className={styles.card_horizontal} onClick={() => navegar_produto(item)} >
                         <img src={item.imagem} alt={item.nome} className={styles.image} />
                         <div className={styles.card_content}>
                             <h3>{item.nome}</h3>
@@ -63,9 +47,9 @@ export default function Cardapio() {
                 ))}
             </div>
 
+            <CartButton/>
 
             <div style={{ marginBottom: 40 }} ></div>
-
 
         </div>
     );

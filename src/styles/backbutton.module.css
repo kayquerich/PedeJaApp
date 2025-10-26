@@ -1,0 +1,15 @@
+.back_button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

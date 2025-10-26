@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styles from "../styles/cart.module.css";
 import { useNavigate } from "react-router-dom";
+import BackButton from "../components/BackButton";
 
 export default function Carrinho() {
 
@@ -56,6 +57,9 @@ export default function Carrinho() {
 
     return (
         <div className={styles.container}>
+
+            <BackButton />
+
             <header className={styles.header}>
                 <h1>🛒 Seu Carrinho</h1>
                 <p>Confira os itens antes de finalizar o pedido</p>

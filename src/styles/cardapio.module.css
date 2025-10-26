@@ -62,6 +62,11 @@
   height: 120px;
 }
 
+.card_horizontal:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
 .card_horizontal .image {
   width: 100px;
   height: 120px;
