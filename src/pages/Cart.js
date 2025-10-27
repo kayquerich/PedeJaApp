@@ -2,11 +2,13 @@ import { useState } from "react";
 import styles from "../styles/cart.module.css";
 import { useNavigate } from "react-router-dom";
 import BackButton from "../components/BackButton";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 export default function Carrinho() {
 
     const navigate = useNavigate();
-    
+
     const [itens, setItens] = useState(
         JSON.parse(sessionStorage.getItem('cart')) || []
     );
@@ -22,7 +24,7 @@ export default function Carrinho() {
         sessionStorage.setItem('cart', JSON.stringify(itens.map((item) =>
             item.id === id ? { ...item, quantidade: item.quantidade + 1 } : item
         )));
-        
+
     };
 
     const diminuir = (id) => {
@@ -58,11 +60,16 @@ export default function Carrinho() {
     return (
         <div className={styles.container}>
 
-            <BackButton />
-
             <header className={styles.header}>
-                <h1>🛒 Seu Carrinho</h1>
-                <p>Confira os itens antes de finalizar o pedido</p>
+                <button className={styles.voltar} onClick={() => navigate(-1)}>
+                    <FontAwesomeIcon icon={faArrowLeft} />
+                </button>
+
+                <h1 className={styles.titulo}>Meu Carrinho</h1>
+
+                <div className={styles.icone}>
+                    <FontAwesomeIcon icon={faShoppingCart} />
+                </div>
             </header>
 
             <div className={styles.content}>

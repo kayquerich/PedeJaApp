@@ -26,6 +26,9 @@ export default function DetalhesProduto() {
         for (let item of saved_cart) {
             if (item.id === produto.id) {
                 console.log('Produto já está no carrinho:', item);
+                toast('Produto já está no carrinho, confira seus produtos na pagina inicial!', {
+                    icon: '⚠️',
+                });
                 return; // Sai da função sem adicionar o produto novamente
             }
         }

@@ -58,6 +58,7 @@
   overflow-x: auto;
   scroll-behavior: smooth;
   padding-bottom: 0.6rem;
+  scrollbar-width: none;
 }
 
 .sugestoesLista::-webkit-scrollbar {
